@@ -44,4 +44,6 @@ Loading the dataset returns four NumPy arrays: (returns 2 tuples)
 
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 
-# Let's explore the format of the dataset before training the model.  The follo
+# Let's explore the format of the dataset before training the model.  The following shows there are 60,000 images in the training set, with each image represnted as 28 x 28 pixels
+
+print(train_images.shape) #https://www.tensorflow.org/api_docs/python/tf/shape
